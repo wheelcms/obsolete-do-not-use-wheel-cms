@@ -1,3 +1,5 @@
+HAYSTACK_SITECONF = 'wheelcms_axle.search_sites'
+
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
